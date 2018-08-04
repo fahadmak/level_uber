@@ -4,13 +4,20 @@ html{
 }
 body{
     margin: 0px;
-    padding: 0px;    
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;     
+}
+
+* {
+    box-sizing: border-box
 }
 .header {
-    background-color: red;
-    background-repeat:no-repeat;
-    background-size:100% 100%;
+    background: url(https://d1a3f4spazzrp4.cloudfront.net/chameleon/cms/uploads/2016/10/24/1477347860-pattern.png) center center repeat;
     height:46px; /*CHANGE TO THE HEIGHT OF YOUR BANNER*/
+    background-size: 60px 60px;
     }
 
 .sign {
