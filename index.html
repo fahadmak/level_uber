@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Uber</title>
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="fontawesome-free-5.2.0-web/css/font-awesome.min.css">
         
     </head>
     <body>
@@ -33,28 +33,32 @@
                             
                         </div>
 
-                        <div class="sm">
+                        <div class="sm" style=" position:  relative; top: 12px;">
                             <label for="mobile" class="lbl">Enter your phone number (required) </label>
                             <div class="input_view">
                                 <input name="phoneNumber" type="tel" value="" class="inputBox sm_width" placeholder="Phone number">
-                                <i class="location fa fa-mobile-alt"></i>
+                                
                             </div>
+                            <img src="img/mobile-alt.svg" class="location">
                             
                         </div>
                         <div class="sm">
                             <label for="email" class="lbl">Enter your email (required)</label>
                             <div class="input_view">
                                 <input name="email" type="email" value="" class="inputBox sm_width" placeholder="Email" autocorrect="on" autocapitalize="words">
+
                             </div>
-                            
+                            <img src="img/envelope.svg" class="location">                            
                         </div>
     
                         <div class="sm">
                             <label for="password" class="lbl">Enter a password (required) </label>
                             <div class="input_view">
                                 <input name="password" type="password" value="" class="inputBox sm_width" placeholder="Password">
+                                
                             </div>
-                            
+                            <img src="img/lock.svg" class="location">
+                                                        
                         </div>
                         <div class="promo">
                             <a class="ee promo" type="button">Add a promo code</a>
