@@ -156,7 +156,7 @@ body{
 }
 @font-face {
     font-family: Source Sans Pro;
-    src:url(".../static/font/SourceSansPro-Regular.otf")
+    src:url("../font/SourceSansPro-Regular.otf")
 }
 input.inputBox.smr_width {
     position: relative;
