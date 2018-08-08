@@ -6,7 +6,7 @@ class SignUpTestCase(unittest.TestCase):
         self.sign = SignUp('fahad', 'makabugo','f.faraqhan@gmail.com')
     
     def test_full_name(self):
-        self.assertEqual(self.sign.combined_name('fahad', 'makabugo'), 'fahad makabugo')
+        self.assertEqual(self.sign.combined_name('fahad', 'makabugo'), 'makabugo fahad')
     
     def test_validate_email(self):
         self.assertEqual(self.sign.validate_email('f.faraqhan@gmail.com'), 'f.faraqhan@gmail.com')
